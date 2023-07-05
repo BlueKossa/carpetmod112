@@ -684,6 +684,12 @@ public class CarpetSettings
     @Rule(desc = "Causes the player to not randomly update light around them", category = CREATIVE)
     public static boolean playerNoLightUpdates = false;
 
+    @Rule(desc = "Disables light updates all together", category = CREATIVE)
+    public static boolean noLightUpdates = false;
+
+    @Rule(desc = "Disables light updates all together", category = CREATIVE)
+    public static boolean noLightUpdatesT = false;
+
     @Rule(desc = "Permanent fires don't schedule random updates", category = EXPERIMENTAL)
     @BugFixDefault
     public static boolean calmNetherFires = false;

@@ -23,7 +23,23 @@
      }
  
      public boolean func_76675_b()
-@@ -147,4 +154,8 @@
+@@ -78,6 +85,7 @@
+ 
+     public void func_76657_c(int p_76657_1_, int p_76657_2_, int p_76657_3_, int p_76657_4_)
+     {
++        if(CarpetSettings.noLightUpdates) return;
+         this.field_76685_h.func_76581_a(p_76657_1_, p_76657_2_, p_76657_3_, p_76657_4_);
+     }
+ 
+@@ -88,6 +96,7 @@
+ 
+     public void func_76677_d(int p_76677_1_, int p_76677_2_, int p_76677_3_, int p_76677_4_)
+     {
++        if(CarpetSettings.noLightUpdates) return;
+         this.field_76679_g.func_76581_a(p_76677_1_, p_76677_2_, p_76677_3_, p_76677_4_);
+     }
+ 
+@@ -147,4 +156,8 @@
      {
          this.field_76685_h = p_76666_1_;
      }
