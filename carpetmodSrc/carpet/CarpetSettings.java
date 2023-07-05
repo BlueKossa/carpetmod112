@@ -681,6 +681,9 @@ public class CarpetSettings
     @Rule(desc = "Uses alternative lighting engine by PhiPros. AKA NewLight mod", category = OPTIMIZATIONS)
     public static boolean newLight = false;
 
+    @Rule(desc = "Causes the player to not randomly update light around them", category = CREATIVE)
+    public static boolean playerNoLightUpdates = false;
+
     @Rule(desc = "Permanent fires don't schedule random updates", category = EXPERIMENTAL)
     @BugFixDefault
     public static boolean calmNetherFires = false;
